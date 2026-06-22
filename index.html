@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EcoAgro Brasil</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Chart.js -->
+       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+    <!-- MENU -->
+    <header>
+
+        <div class="logo">
+            🌱 EcoAgro Brasil
+        </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#agro">O Agro</a>
+            <a href="#problemas">Problemas</a>
+            <a href="#solucoes">Soluções</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+
+        <button id="modo">🌙</button>
+
+         </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+    <h1>🌱Agro Forte, Futuro Sustentável: Equilíbrio entre Produção e Meio Ambiente🌱</h1>
+    
+    <img
+        src="https://tse2.mm.bing.net/th/id/OIP.NXl9U1KirYPXBV5CPOubbQHaE8?r=0&cb=thfvnextfalcon&rs=1&pid=ImgDetMain&o=7&rm=3"
+        alt="Plantação sustentável"
+        class="imagem-principal"
+    >
+
+    <p>
+        A agricultura sustentável é o caminho para produzir alimentos,
+        gerar riqueza e preservar os recursos naturais para as próximas gerações.
+    </p>
+
+</section>
+
+    <!-- O AGRO -->
+    <section id="agro" class="revelar">
+
+        <h2>🌾 O Agro no Brasil</h2>
+
+        <p>
+            O agronegócio movimenta a economia, gera empregos e produz alimentos essenciais para a população.
+        </p>
+
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🍎 Produção</h3>
+                <p>
+                    O Brasil está entre os maiores produtores agrícolas do mundo.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>👨‍🌾 Empregos</h3>
+                <p>
+                    Milhões de pessoas dependem do campo para trabalhar.
+                </p>
+                 </div>
+
+            <div class="card">
+                <h3>🌎 Exportações</h3>
+                <p>
+                    O agro brasileiro abastece diversos países.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROBLEMAS -->
+    <section id="problemas" class="revelar problemas">
+
+        <h2>🌍 Problemas Ambientais</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🔥 Queimadas</h3>
+                <p>
+                    A destruição de florestas prejudica a biodiversidade.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💧 Desperdício de Água</h3>
+                <p>
+                    Métodos inadequados causam desperdícios hídricos.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>☣️ Poluição</h3>
+                <p>
+                    O excesso de agrotóxicos pode contaminar o solo.
+                </p>
+            </div>
+
+        </div>
+
+ </section>
+
+
+    <!-- SOLUÇÕES -->
+    <section id="solucoes" class="revelar">
+
+        <h2>♻️ Soluções Sustentáveis</h2>
+
+        <div class="cards">
+
+            <div class="card imagem-card">
+
+                <h3>☀️ Energia Solar</h3>
+
+                <p>
+                    Uso de energia limpa nas propriedades rurais.
+                </p>
+            </div>
+
+            <div class="card imagem-card">
+
+                <h3>🛰️ Agricultura de Precisão</h3>
+
+              <p>
+                    Sensores e drones reduzem desperdícios.
+                </p>
+            </div>
+
+            <div class="card imagem-card">
+
+                <h3>🌳 Reflorestamento</h3>
+
+                <p>
+                    Preservação ambiental e recuperação da vegetação.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TECNOLOGIA -->
+    <section id="tecnologia" class="text">
+
+        <h2>🤖 Tecnologia no Campo</h2>
+
+         <p>
+           A tecnologia desempenha um papel fundamental na construção de um agronegócio mais sustentável. Atualmente, ferramentas como drones, imagens de satélite, sensores climáticos e softwares de gestão auxiliam os produtores na tomada de decisões mais precisas e eficientes. Essas inovações permitem monitorar a saúde das plantações, controlar o uso de insumos e reduzir desperdícios, contribuindo para a preservação dos recursos naturais. Além disso, máquinas modernas aumentam a produtividade sem a necessidade de expandir áreas de cultivo, ajudando a combater o desmatamento. Assim, a união entre tecnologia e responsabilidade ambiental demonstra que é possível produzir mais alimentos, gerar desenvolvimento econômico e, ao mesmo tempo, proteger o meio ambiente para as futuras gerações.
+        </p>
+
+    </section>
+
+<section id="quiz">
+
+    <h2>🧠 Quiz Sustentável</h2>
+
+    <form id="quizForm">
+
+        <div class="quiz-grid">
+
+            <!-- Pergunta 1 -->
+            <div class="card">
+                <h3>1. O que é agricultura sustentável?</h3>
+
+                <input type="radio" name="q1" value="c">
+                Produzir alimentos preservando os recursos naturais
+
+                <br><br>
+
+                <input type="radio" name="q1" value="e">
+                Produzir sem preocupação ambiental
+            </div>
+
+            <!-- Pergunta 2 -->
+            <div class="card">
+                <h3>2. Qual recurso é indispensável para a agricultura?</h3>
+
+                <input type="radio" name="q2" value="c">
+                Água
+
+                <br><br>
+
+                <input type="radio" name="q2" value="e">
+                Ouro
+            </div>
+
+            <!-- Pergunta 3 -->
+            <div class="card">
+                <h3>3. Qual prática ajuda a economizar água?</h3>
+
+                <input type="radio" name="q3" value="c">
+                Irrigação inteligente
+
+                <br><br>
+
+                <input type="radio" name="q3" value="e">
+                Queimadas
+            </div>
+
+            <!-- Pergunta 4 -->
+            <div class="card">
+                <h3>4. O reflorestamento contribui para:</h3>
+
+                <input type="radio" name="q4" value="c">
+                Recuperar áreas degradadas
+
+                <br><br>
+
+                <input type="radio" name="q4" value="e">
+                Aumentar o desmatamento
+            </div>
+
+            <!-- Pergunta 5 -->
+            <div class="card">
+                <h3>5. Os drones podem ser utilizados para:</h3>
+
+                <input type="radio" name="q5" value="c">
+                Monitorar lavouras
+
+                <br><br>
+
+                <input type="radio" name="q5" value="e">
+                Aumentar queimadas
+            </div>
+
+            <!-- Pergunta 6 -->
+            <div class="card">
+                <h3>6. O que é compostagem?</h3>
+
+                <input type="radio" name="q6" value="c">
+                Produção de adubo orgânico
+
+                <br><br>
+
+                <input type="radio" name="q6" value="e">
+                Queima de resíduos
+            </div>
+
+            <!-- Pergunta 7 -->
+            <div class="card">
+                <h3>7. Qual é uma fonte de energia renovável?</h3>
+
+                <input type="radio" name="q7" value="c">
+                Energia solar
+
+                <br><br>
+
+                <input type="radio" name="q7" value="e">
+                Petróleo
+            </div>
+
+            <!-- Pergunta 8 -->
+            <div class="card">
+                <h3>8. As matas ciliares ajudam a:</h3>
+
+                <input type="radio" name="q8" value="c">
+                Proteger rios
+
+                <br><br>
+
+                <input type="radio" name="q8" value="e">
+                Poluir a água
+            </div>
+
+            <!-- Pergunta 9 -->
+            <div class="card">
+                <h3>9. O principal objetivo da agricultura de precisão é:</h3>
+
+                <input type="radio" name="q9" value="c">
+                Utilizar recursos de forma eficiente
+
+                <br><br>
+
+                <input type="radio" name="q9" value="e">
+                Aumentar desperdícios
+            </div>
+
+            <!-- Pergunta 10 -->
+            <div class="card pergunta10">
+                <h3>10. O desenvolvimento sustentável busca:</h3>
+
+                <input type="radio" name="q10" value="c">
+                Equilibrar economia e meio ambiente
+
+                <br><br>
+
+                <input type="radio" name="q10" value="e">
+                Priorizar apenas a produção
+            </div>
+
+        </div>
+
+        <div class="area-botao">
+            <button type="button" onclick="corrigirQuiz()">
+                Ver Resultado
+            </button>
+        </div>
+
+    </form>
+
+    <h3 id="resultado"></h3>
+
+</section>
+    <!-- CONTADOR -->
+    <section class="contador revelar">
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <h2>🌱 EcoAgro Brasil</h2>
+
+        <p>
+            Projeto desenvolvido para o Programa Agrinho.
+        </p>
+
+    </footer>
+
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
