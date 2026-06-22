@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem no Site</title>
+</head>
+<body>
+    <h1>Minha Imagem</h1>
+    <img src="https://tse2.mm.bing.net/th/id/OIP.NXl9U1KirYPXBV5CPOubbQHaE8?r=0&cb=thfvnextfalcon&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Descrição da imagem" style="max-width:100%;height:auto;" />
+</body>
+</html>
